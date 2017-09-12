@@ -4,6 +4,7 @@ class CreateShows < ActiveRecord::Migration[5.1]
       t.string :name
       t.string :start
       t.string :description
+      t.string :user_id
 
       t.timestamps
     end
